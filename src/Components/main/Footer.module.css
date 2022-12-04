@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    color: azure;
+    background-color:#736eaf; 
+    font-size: x-large;
+    font-weight: bold;
+    height: 7rem;
+    opacity:200px;
+    padding-top: 0.5rem;
+    border:10px goldenrod;
+    border-color: crimson;
+    box-shadow: brown;
+    border-radius: 10px;
+}
