@@ -1,16 +1,30 @@
-import React,{Fragment} from "react";
-import Footers from "./Components/main/Footer";
-import Mainheader from "./Components/main/Mainheader";
-import MusicList from "./Components/main/MusicList";
-
+import React from "react";
+import NavigationBar from "./Components/Ncvigation";
+import Home from "./Components/Pages/Home";
+import About from "./Components/Pages/About";
+import StorePage from "./Components/Pages/store";
+import Carts from "./Components/Cart";
+import {Route, Switch} from "react-router-dom";
 
 function App() {
   return (
-    <Fragment>
-      <Mainheader />
-      <MusicList />
-      <Footers />
-    </Fragment>
+    <React.Fragment>
+        <NavigationBar size/>
+        <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route> 
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/store">
+          <StorePage />
+        </Route>
+        <Route path="/cart">
+          <Carts />
+        </Route>
+        </Switch>
+    </React.Fragment>
   );
 }
 
