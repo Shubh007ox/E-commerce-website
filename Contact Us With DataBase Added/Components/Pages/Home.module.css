@@ -1,0 +1,138 @@
+
+.hw {
+  display: block;
+  width: 100%;
+  font-size: 100px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  background-color: rgb(179, 183, 214);
+  color: azure;
+}
+.header {
+  padding: 40px;
+  font-size: 90px;
+  text-align: center;
+  font-size: larger;
+  /* background-color: rgb(202, 192, 229); */
+  background-color: rgb(151, 162, 193);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.tourItem {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.latest {
+  display: block;
+  border: 1px solid #51a5c1;
+  padding: 15px 30px;
+  font-size: 23px;
+  font-weight: 200;
+  margin: 10px auto;
+  background: inherit;
+  cursor: pointer;
+  color: rgb(252, 251, 251);
+  appearance: auto;
+  writing-mode: horizontal-tb;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-shadow: bisque;
+  text-align: center;
+  text-indent: 0px;
+  background-color: rgb(76, 108, 184);
+}
+section {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+section h2 {
+  font-family: "Metal Mania";
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.h2 {
+  display: block;
+  font-size: 5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bolder;
+}
+.s1 {
+  width: 12%;
+}
+.s2 {
+  width: 25%;
+  color: #777;
+}
+.s4 {
+  width: 53%;
+  color: #777;
+}
+.s3 {
+  width: 20%;
+  background: #56ccf2;
+  color: white;
+  border: aliceblue;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  cursor: pointer;
+}
+.fD {
+    text-align: center;
+    color: white;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .fM {
+    display:flex;
+    margin-top: 40px;
+    padding: 20px;
+    background: #5e72cc;   
+    box-sizing: border-box;
+  }
+  .footerIsd {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ullll {
+    list-style-type: none;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .aaa {
+    font-size: larger;
+    color: rgb(132, 164, 196);
+  }
+  
+
