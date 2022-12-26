@@ -1,0 +1,68 @@
+.main2{
+  width: 100%;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 400px;
+  padding: 12px;
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rgba(182, 14, 14, 0.1);
+  cursor: pointer;
+}
+.imagebox img {
+  width: 400px;
+  height: 400px;
+  transition: ease-in 0.5s;
+}
+.ing{
+  box-sizing: border-box;
+  transition: ease-in 0.5s;
+}
+.detailsss {
+  font-weight: bold;
+}
+.detailss {
+  color: rgb(46, 122, 215);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.detail {
+  font-weight: bold;
+  color: grey;
+}
+/* .button {
+    width: max-content;
+    padding: 5px 10px;
+    border:yellow;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+  } */
+.button {
+  width: 150px;
+  height: 2.5rem;
+  color: azure;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: blue;
+}
+.h3{
+  text-align: center;
+  padding-bottom: 10px;
+
+}

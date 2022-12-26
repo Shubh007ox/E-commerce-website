@@ -1,0 +1,42 @@
+.dif {
+  width: 100%;
+
+}
+
+
+
+.footer {
+  text-align: center;
+  color: white;
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.fot {
+  width: 100%;
+  display:flexbox;
+  margin-top: 115px;
+  padding: 20px;
+  background: #5e72cc;
+  box-sizing: border-box;
+}
+.footerI {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ull {
+  list-style-type: none;
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.aa {
+  font-size: larger;
+  color: rgb(132, 164, 196);
+}

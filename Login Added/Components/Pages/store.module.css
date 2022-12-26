@@ -1,0 +1,25 @@
+.main{
+  width: 100%;
+}
+.h1 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: xx-large;
+  font-stretch: ultra-expanded;
+}
+.h2{
+    height: 20rem;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(104, 141, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    font-size: x-large;
+    text-shadow: brown;
+    text-decoration-line: overline;
+    text-decoration-color: chocolate;
+    text-decoration-style:wavy;  
+    margin-top: 45px;  
+}
