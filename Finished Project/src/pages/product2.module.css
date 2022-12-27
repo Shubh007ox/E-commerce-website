@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.li {
+  /* flex-flow: column; 
+      position: sticky; 
+       top: 64px; 
+      bottom: 0;
+      z-index: 2;
+      align-self: flex-start; */
+  /* width: 50%; */
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 10px;
+}
+.l2 {
+  width: fit-content;
+}
+.section {
+  width: 100%;
+  background-color: azure;
+}
+.img {
+  padding-top: 5px;
+  margin-top: 5px;
+  width: 500px;
+  transition: ease-in 0.5s;
+}
+.img1 {
+  width: 470px;
+  height: 500px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.div12 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: auto;
+}
+.imgage1 {
+  width: 970px;
+  height: 700px;
+}
+.ti {
+  display: flow-root;
+  width: 100%;
+}
+.title {
+  padding-top: 20px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: space-around;
+  text-decoration-line: underline;
+  text-align: center;
+}
+.price {
+  padding: 20px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.para {
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-stretch: expanded;
+}
